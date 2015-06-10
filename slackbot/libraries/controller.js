@@ -3,9 +3,10 @@ module.exports = {
     command: {},
     message: {},
     startSignature: '//',
-    signatureCount: 2,
+    signatureCount: null,
 
     init: function(message) {
+        this.signatureCount = this.startSignature.length;
         this.message = message;
     },
 

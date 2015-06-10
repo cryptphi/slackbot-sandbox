@@ -5,7 +5,6 @@ var coreCtrl = require('./../libraries/controller.js');
 
 var boloCtrl = {
     startSignature: 'bolo',
-    signatureCount: 4,
     actions: {
         show: function(message, parameters) {
             var self = this;
