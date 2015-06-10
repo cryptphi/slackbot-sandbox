@@ -2,7 +2,7 @@
 
 To run slackbot-sandbox:
 
-- configure ```slackbot/config/config.js```
+- rename ```slackbot/config/config.js.dist``` to ```slackbot/config/config.js``` and configure
 - ```npm install```
 - ```node slackbot.js```
 

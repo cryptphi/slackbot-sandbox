@@ -9,7 +9,9 @@ var boloCtrl = {
     actions: {
         show: function(message, parameters) {
             var self = this;
-            googleImages.search(parameters[1], function(error, images) {
+            parameters.shift();
+
+            googleImages.search(parameters.join(' '), function(error, images) {
                 if(!error) {
                     var index = Math.floor((Math.random() * (images.length - 1)) + 1);
                     var image = images[index];
