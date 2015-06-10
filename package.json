@@ -1,0 +1,17 @@
+{
+  "name": "slackbot-sandbox",
+  "version": "0.0.1",
+  "description": "Sandbox for slackbot creators",
+  "main": "slackbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Duraj",
+  "license": "GPL",
+  "dependencies": {
+    "google-images": "^0.1.0",
+    "node.extend": "^1.1.5",
+    "request": "^2.57.0",
+    "websocket": "^1.0.19"
+  }
+}
